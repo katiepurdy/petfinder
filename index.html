@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Assignment 6</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+        <div class="page-wrapper" id="page-wrapper">
+            <section class="intro container">
+                <h1>Find an Adoptable Friend</h1>
+                <h2>and give them their furrever home</h2>
+            </section>
+            <section class="species-select container">
+                <ul class="species-options">
+                    <li class="species">
+                        <input type="radio" name="species" id="species-cat" class="hidden js-species">
+                        <label for="species-cat">
+                            <h3>Cat</h3>
+                            <img src="images/species-cat.jpeg" alt="Search for cats" class="species-image">
+                        </label>
+                    </li>
+                    <li class="species">
+                        <input type="radio" name="species" id="species-dog" class="hidden js-species">
+                        <label for="species-dog">
+                            <h3>Dog</h3>
+                            <img src="images/species-dog.jpeg" alt="Search for dogs" class="species-image">
+                        </label>
+                    </li>
+                    <li class="species">
+                        <input type="radio" name="species" id="species-rabbit" class="hidden js-species">
+                        <label for="species-rabbit">
+                            <h3>Rabbit</h3>
+                            <img src="images/species-other.jpeg" alt="Seach for rabbits" class="species-image">
+                        </label>
+                    </li>
+                </ul>
+                <h4>Filters</h4>
+            </section>
+            <section class="filters container" id="select-boxes-wrapper">
+                <div class="criteria">
+                    <div class="criterion">
+                        <label for="pet-select">City</label>
+                        <select id="city-select" class="js-filter">
+                            <option value="">--Select one--</option>
+                            <option value="Dartmouth, NS">Dartmouth, NS</option>
+                            <option value="New Glasgow, NS">New Glasgow, NS</option>
+                            <option value="Sydney, NS">Sydney, NS</option>
+                            <option value="Truro, NS">Truro, NS</option>
+                            <option value="Yarmouth, NS">Yarmouth, NS</option>
+                            <option value="Toronto, ON">Toronto, ON</option>
+
+                        </select>
+                    </div>
+                    <div class="criterion">
+                        <label for="gender-select">Gender</label>
+                        <select id="gender-select" class="js-filter">
+                            <option value="">--Select one--</option>
+                        </select>
+                    </div>
+                    <div class="criterion">
+                        <label for="coat-select">Coat</label>
+                        <select id="coat-select" class="js-filter">
+                            <option value="">--Select one--</option>
+                        </select>
+                    </div>
+                    <div class="criterion">
+                        <label for="colour-select">Colour</label>
+                        <select id="colour-select" class="js-filter">
+                            <option value="">--Select one--</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+            <div class="results-count" id="results-count">
+            </div>
+            <section class="results container" id="results">
+                
+            </section>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/blazy.min.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

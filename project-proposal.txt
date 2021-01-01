@@ -1,0 +1,25 @@
+1. You will use JavaScript's fetch functionality to grab data from an external web resource (API). The data must be in either JSON or XML format.
+
+My plan at the moment is to use the Petfinder API to display a listing of adoptable pets in the location chosen by the user:
+https://www.petfinder.com/developers/v2/docs/
+
+2. During the data processing stage of your application, you will demonstrate competence with at least three (3) JavaScript array methods.
+
+I think map will work well for initially selecting relevant properties from the API response.
+I can see myself using filter to narrow the results displayed based on further user input (e.g. display only a certain breed).
+I can also see reduce coming in handy for counting the total number of pets that meet the user's criteria.
+
+3. You will demonstrate that you understand the DOM and the DOM API. Either data retrieved from the web or statistics derived from that data must be presented in a web page by using the DOM API. If you wish, you may use jQuery or another suitable library rather than the raw DOM API. Some basic interactivity should be present to manipulate and/or work with the retrieved data.
+
+I think I'll populate some dropdown menus that list the options a user has to narrow down the results (e.g. gender, breed, and/or age)
+
+4. You must include some basic CSS in your application and that CSS must originate as SASS/SCSS and be processed into raw CSS.
+
+Can do!
+
+5. You must leverage at least one (1) other third party JavaScript library. A good source of libraries is : http://microjs.com.
+
+From those listed on microjs.com, bLazy.js piques my interest because lazy loading images of adoptable pets could be worth implementing.
+
+A link to my wireframe image can be found here:
+https://i.imgur.com/F6PjbkL.png
